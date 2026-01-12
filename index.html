@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaflet GeoJSON Viewer</title>
+    <title>TrashRadar</title>
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <style>
@@ -38,7 +38,7 @@
 
         async function loadGeoJson() {
             try {
-                const response = await fetch('/trash.geojson');
+                const response = await fetch('trash.geojson');
                 
                 if (!response.ok) return;
 
@@ -53,20 +53,23 @@
                             fillColor: "#3b82f6",
                             fillOpacity: 0.2
                         };
+                    },
+                    onEachFeature: function (feature, layer) {
+                        if (feature.properties && feature.properties.description) {
+                            layer.bindPopup(feature.properties.description);
+                        }
                     }
                 }).addTo(map);
 
                 const bounds = geoJsonLayer.getBounds();
                 if (bounds.isValid()) {
-                    map.fitBounds(bounds, { padding: [20, 20] });
+                    map.fitBounds(bounds, { padding: [50, 50] });
                 }
 
             } catch (error) {
-
-                console.error('failed to load geojson');
+                console.error('failed to load geojson', error);
             }
         }
-
 
         window.onload = loadGeoJson;
     </script>
