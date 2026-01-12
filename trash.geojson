@@ -4,9 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#000000",
-        "marker-size": "medium",
-        "marker-symbol": "circle",
         "description": "<strong>Object:</strong> Glove<br><strong>Material:</strong> Wool(?)<br><strong>Brand:</strong> Unknown<br><strong>Product:</strong> Unknown<br><strong>Found:</strong> 7 Jan 2026<br><strong>Removed:</strong> Still there<strong>Last checked:</strong> 12 Jan 2026, 2:02 PM"
       },
       "geometry": {
