@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Object": "Glove",
+        "Made out of": "Wool(?)",
+        "marker-color": "#000000",
+        "marker-size": "medium",
+        "marker-symbol": "circle",
+        "Last checked": "12/01/26 2:02 PM",
+        "Brand": "Unknown",
+        "Product": "Unknown"
+      },
+      "geometry": {
+        "coordinates": [
+          12.577429179092405,
+          44.051284211532305
+        ],
+        "type": "Point"
+      },
+      "id": 0
+    }
+  ]
+}
