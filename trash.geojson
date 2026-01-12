@@ -4,14 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Object": "Glove",
-        "Made out of": "Wool(?)",
         "marker-color": "#000000",
         "marker-size": "medium",
-        "marker-symbol": "circle",
-        "Last checked": "12/01/26 2:02 PM",
-        "Brand": "Unknown",
-        "Product": "Unknown"
+        "marker-symbol": "circle"
+        "description": "<strong>Object:</strong> Glove<br><strong>Material:</strong> Wool(?)<br><strong>Last checked:</strong> 12/01/26 2:02 PM"
       },
       "geometry": {
         "coordinates": [
