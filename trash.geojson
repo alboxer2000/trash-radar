@@ -3,31 +3,31 @@
   "features": [
     {
       "type": "Feature",
+      "id": 0,
       "properties": {
-        "description": "<strong>Object:</strong> Glove<br><strong>Material:</strong> Wool(?)<br><strong>Brand:</strong> Unknown<br><strong>Product:</strong> Unknown<br><strong>Found:</strong> 7 Jan 2026<br><strong>Removed:</strong> Still there<br><strong>Last checked:</strong> 13 Jan 2026, 2:05 PM"
+        "description": "<strong>Object:</strong> Glove\n<strong>Material:</strong> Wool(?)\n<strong>Brand:</strong> Unknown\n<strong>Product:</strong> Unknown\n<strong>Found:</strong> 7 Jan 2026\n<strong>Removed:</strong> Still there\n<strong>Last checked:</strong> 13 Jan 2026, 2:05 PM"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           12.57683915702711,
           44.05151346242971
-        ],
-        "type": "Point"
-      },
-      "id": 0
+        ]
+      }
     },
     {
       "type": "Feature",
+      "id": 1,
       "properties": {
-        "description": "<strong>Object:</strong> Napkin<br><strong>Material:</strong> Paper<br><strong>Brand:</strong> Unknown<br><strong>Product:</strong> Unknown<br><strong>Found:</strong> 13 Jan 2026<br><strong>Removed:</strong> Still there<br><strong>Last checked:</strong> 13 Jan 2026, 2:05 PM"
+        "description": "<strong>Object:</strong> Napkin\n<strong>Material:</strong> Paper\n<strong>Brand:</strong> Unknown\n<strong>Product:</strong> Unknown\n<strong>Found:</strong> 13 Jan 2026\n<strong>Removed:</strong> Still there\n<strong>Last checked:</strong> 13 Jan 2026, 2:05 PM"
       },
       "geometry": {
+        "type": "Point",
         "coordinates": [
           12.577135761709826,
           44.051768205076655
-        ],
-        "type": "Point"
+        ]
       }
-      "id": 1
     }
   ]
 }
