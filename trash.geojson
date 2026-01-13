@@ -4,16 +4,29 @@
     {
       "type": "Feature",
       "properties": {
-        "description": "<strong>Object:</strong> Glove<br><strong>Material:</strong> Wool(?)<br><strong>Brand:</strong> Unknown<br><strong>Product:</strong> Unknown<br><strong>Found:</strong> 7 Jan 2026<br><strong>Removed:</strong> Still there<br><strong>Last checked:</strong> 12 Jan 2026, 2:02 PM"
+        "description": "<strong>Object:</strong> Glove<br><strong>Material:</strong> Wool(?)<br><strong>Brand:</strong> Unknown<br><strong>Product:</strong> Unknown<br><strong>Found:</strong> 7 Jan 2026<br><strong>Removed:</strong> Still there<br><strong>Last checked:</strong> 13 Jan 2026, 2:05 PM"
       },
       "geometry": {
         "coordinates": [
-          12.577429179092405,
-          44.051284211532305
+          12.57683915702711,
+          44.05151346242971
         ],
         "type": "Point"
       },
-      "id": 0
+      
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<strong>Object:</strong> Napkin<br><strong>Material:</strong> Paper<br><strong>Brand:</strong> Unknown<br><strong>Product:</strong> Unknown<br><strong>Found:</strong> 13 Jan 2026<br><strong>Removed:</strong> Still there<br><strong>Last checked:</strong> 13 Jan 2026, 2:05 PM"
+      },
+      "geometry": {
+        "coordinates": [
+          12.577135761709826,
+          44.051768205076655
+        ],
+        "type": "Point"
+      }
     }
   ]
 }
