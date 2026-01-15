@@ -30,6 +30,34 @@
           44.051768205076655
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#25a6d9",
+        "description": "<strong>Object:</strong> Bottle<br><strong>Material:</strong> Plastic<br><strong>Brand:</strong> Sant'anna<br><strong>Product:</strong> Unknown<br><strong>Found:</strong> 15 Jan 2026<br><strong>Removed:</strong> Still there<br><strong>Last checked:</strong> 15 Jan 2026, 2:03 PM"
+      },
+      "geometry": {
+        "coordinates": [
+          12.591299766284237,
+          44.04630271221825
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffffff",
+        "description": "<strong>Object:</strong> Can<br><strong>Material:</strong> Metal(?)<br><strong>Brand:</strong> Unknown<br><strong>Product:</strong> Unknown<br><strong>Found:</strong> 15 Jan 2026<br><strong>Removed:</strong> Still there<br><strong>Last checked:</strong> 15 Jan 2026, 7:03 AM"
+      },
+      "geometry": {
+        "coordinates": [
+          12.598437826405956,
+          44.04850468991987
+        ],
+        "type": "Point"
+      }
     }
   ]
 }
